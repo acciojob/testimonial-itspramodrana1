@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+/* General reset */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #e0e0e0; /* Slightly darker to make the container pop */
+}
+
+/* Main Container */
+.main-container {
+    background-color: #f5f5f5;
+    padding: 40px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Individual Testimonial Box */
+.testimonial {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* Testimonial Text */
+.text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Author Name Styling */
+.author {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    color: #222;
+    margin-top: 10px;
+}
